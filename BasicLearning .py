@@ -35,3 +35,14 @@ maps = {"key1": "val1", "key2": "val2", "key3": "val3"}
 #lambda
 lam = lambda x: print(x)
 lam("test")
+
+#class
+class Customer:
+    def __init__(self, number, name, height=0):
+        self.number = number
+        self.name = name
+        self.height = height
+
+taro = Customer(101, "太郎", 180)
+print("{}: {} {}cm".format(taro.number, taro.name, taro.height))
+
